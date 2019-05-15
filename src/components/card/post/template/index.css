@@ -1,0 +1,47 @@
+h3 {
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+p {
+    margin: 10px 0;
+}
+
+.post-template{
+    margin: 10px 0;
+}
+
+.row-logo-name {
+    display: flex;
+    flex-direction: row;
+}
+
+.init-logo{
+    width: 50px;
+    min-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 50px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.col-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 10px;
+    align-self: stretch;
+}
+
+.name {
+    text-transform: capitalize;
+}
+
+.username {
+    color: grey;
+}
