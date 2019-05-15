@@ -30,6 +30,7 @@ class CardPost extends Component {
           <div className='list-comments'>
             {post.comments.map( comment => {
               return <PostTemplate
+                key={`${comment.postId}-${comment.id}`}
                 name={ comment.name }
                 username={comment.email}
                 description={ comment.body }
