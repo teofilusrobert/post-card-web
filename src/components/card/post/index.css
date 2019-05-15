@@ -1,62 +1,62 @@
 h3 {
-    text-transform: capitalize;
-    margin: 10px 0;
+  text-transform: capitalize;
+  margin: 10px 0;
 }
 
 .card-post{
-    background-color: white;
-    border-radius: 5px;
-    margin: 10px 0;
-    padding: 10px 20px;
-    outline: none;
-    text-align: left;
-    font-size: unset;
-    cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px 20px;
+  outline: none;
+  text-align: left;
+  font-size: unset;
+  cursor: pointer;
 }
 
 .row-comments {
-    height:500px;
-    transform:scaleY(1);
-    transform-origin: top;
-    transition: all 0.5s ease-out;
-    overflow: hidden;
+  height:500px;
+  transform:scaleY(1);
+  transform-origin: top;
+  transition: all 0.5s ease-out;
+  overflow: hidden;
 }
 .row-comments.collapsed {
-    height: 0px;
-    transform:scaleY(0);
+  height: 0px;
+  transform:scaleY(0);
 }
 
 .list-comments {
-    overflow: auto;
-    max-height: 480px;
+  overflow: auto;
+  max-height: 480px;
 }
 
 .row-logo-name {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .init-logo{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    line-height: 50px;
-    color: white;
-    font-weight: 600;
-    font-size: 1.5rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  line-height: 50px;
+  color: white;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 .col-name {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 5px 10px;
-    align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px 10px;
+  align-self: stretch;
 }
 
 .username {
-    color: grey;
+  color: grey;
 }
