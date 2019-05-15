@@ -1,1 +1,2 @@
-# post-card-web
+npm install
+npm start
